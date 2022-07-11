@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-java-bold
     - name: icon-shell
-  desc: A young and passionate software engineer, fervent about teaching computers how to come upto their own conclusions and solve problems through ML. "Our intuition about the future is linear. But the reality of information technology is exponential, and that makes a profound difference. If I take 30 steps linearly, I get to 30. If I take 30 steps exponentially, I get to a billion." This quote by Ray Kurzweil, a computer scientist and futurist, seems more apt now than ever. In the forseeable future, we will be moving from linear to exponential growth in technology and I would love to be a part of that "exponential growth"
+  desc: A young and passionate software engineer, fervent about teaching computers how to come upto their own conclusions and solve problems through AI. <br> "Our intuition about the future is linear. But the reality of information technology is exponential, and that makes a profound difference. If I take 30 steps linearly, I get to 30. If I take 30 steps exponentially, I get to a billion." This quote by Ray Kurzweil, a computer scientist and futurist, seems more apt now than ever. In the forseeable future, we will be moving from linear to exponential growth in technology and I would love to be a part of that "exponential growth"
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
