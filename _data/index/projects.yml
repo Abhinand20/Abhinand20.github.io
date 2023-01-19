@@ -19,6 +19,12 @@
   img: /static/assets/img/landing/research.png 
   desc: A novel & effective approach to the tackle the challenging task of automatically segmenting regions in MRI/CT scans in a few-shot setting with very little training data. Code and research paper will be made public soon!
 
+- name: 3D Graphics Engine
+  gh_user: Abhinand20
+  repo: GraphicsEngine
+  img: /static/assets/img/landing/3d.jpeg # TO ADD
+  desc: An interactive tool to render 3D objects using 2D graphics using concepts of linear algebra and computational graphics.
+  
 - name: MathFormer
   gh_user: Abhinand20
   repo: MathFormer
