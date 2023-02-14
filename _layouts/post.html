@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="wrapper wrapper-content  animated fadeInRight article">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
@@ -9,7 +8,8 @@ layout: default
                 <div class="ibox-content">
                     <div class="pull-right">
                     	{% for category in page.categories %}
-                        	<a class="btn btn-white btn-xs" href="{{ category | downcase | prepend: '/' | prepend: site.baseurl }}">{{ category }}</a>
+                        	<!-- <a class="btn btn-white btn-xs" href="{{ category | downcase | prepend: '/' | prepend: site.baseurl }}">{{ category }}</a> -->
+                        	<a class="btn btn-white btn-xs" style="pointer-events: none">{{ category }}</a>
                         {% endfor %}
                     </div>
                     <div class="text-center article-title">
