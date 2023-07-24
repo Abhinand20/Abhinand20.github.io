@@ -1,13 +1,26 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Google
+    i18n: company_e
+  desc:
+    detail: Working on the Google Cloud AI team, making ML more accessible to everyone. Leveraging the power of LLMs to build apps that make internal teams more efficient.
+    i18n: company_c_desc
+  date:
+    detail: May 2023 - Present
+    i18n: company_e_date
+  job:
+    detail: Software Engineer Intern
+    i18n: company_e_job
+  icon: fa-plus-square
+- name:
     detail: Carnegie Mellon University
     i18n: company_c
   desc:
     detail: Graduate researcher at CMU's School of Computer Science. Studying the application of self-supervised deep learning methods for few-shot semantic medical image segmentation (MRI/CT and electron microscopy data)
     i18n: company_c_desc
   date:
-    detail: Jan 2022 - Present
+    detail: Jan 2022 - Dec 2022
     i18n: company_c_date
   job:
     detail: Graduate Researcher
