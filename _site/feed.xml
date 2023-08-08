@@ -5,8 +5,8 @@
     <description>Abhinand Jha&apos;s Online Portfolio.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Feb 2023 12:57:09 -0500</pubDate>
-    <lastBuildDate>Tue, 14 Feb 2023 12:57:09 -0500</lastBuildDate>
+    <pubDate>Mon, 07 Aug 2023 23:40:40 -0700</pubDate>
+    <lastBuildDate>Mon, 07 Aug 2023 23:40:40 -0700</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -44,7 +44,7 @@ In [2] Quinlan provides deeper insights into how GFS has evolved and adapted to 
   &lt;li&gt;GFS is not really suitable for writes at random locations and focuses entirely on appends. Would it be possible to extend the architecture to support random writes to make it more general? Given that SSDs are readily available and allow fast random writes.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Thu, 10 Feb 2022 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 10 Feb 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/computer%20science/system%20design/distributed%20systems/backend/file%20systems/software%20engineering/storage/2022/02/10/gfs.html</link>
         <guid isPermaLink="true">http://localhost:4000/computer%20science/system%20design/distributed%20systems/backend/file%20systems/software%20engineering/storage/2022/02/10/gfs.html</guid>
         
@@ -111,7 +111,7 @@ In [2] Quinlan provides deeper insights into how GFS has evolved and adapted to 
   &lt;li&gt;The concept of unidirectional routing in Chord can be misused during a routing attack (where a malicious node purposely detours messages to increase path length). Can we modify the algorithm to include bi-directional edges and bi-directional finger table entries to prevent this?&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sat, 05 Feb 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 05 Feb 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/computer%20science/system%20design/distributed%20systems/backend/consistent%20hashing/software%20engineering/2022/02/05/chord.html</link>
         <guid isPermaLink="true">http://localhost:4000/computer%20science/system%20design/distributed%20systems/backend/consistent%20hashing/software%20engineering/2022/02/05/chord.html</guid>
         
@@ -176,7 +176,7 @@ are specially caused by latency variability? For example, some latency issues co
   &lt;li&gt;One of the modern commercial databases that use hedged requests is Cassandra. It uses the percentile heuristic to send 3 requests for each request. This increases the load on the server but provides better latency.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Mon, 24 Jan 2022 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 24 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/computer%20science/system%20design/distributed%20systems/backend/networks/software%20engineering/2022/01/24/tail-at-scale.html</link>
         <guid isPermaLink="true">http://localhost:4000/computer%20science/system%20design/distributed%20systems/backend/networks/software%20engineering/2022/01/24/tail-at-scale.html</guid>
         
@@ -240,7 +240,7 @@ are specially caused by latency variability? For example, some latency issues co
   &lt;li&gt;Will the event-notification API proposed in [1] provide similar improvements in a multi-processor environment as it does in a single processor setting? Would there be significant changes in the API implementation to support multi-processor events?&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Thu, 20 Jan 2022 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 20 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/computer%20science/system%20design/servers/backend/networks/software%20engineering/2022/01/20/server-design-advanced.html</link>
         <guid isPermaLink="true">http://localhost:4000/computer%20science/system%20design/servers/backend/networks/software%20engineering/2022/01/20/server-design-advanced.html</guid>
         
@@ -298,7 +298,7 @@ are specially caused by latency variability? For example, some latency issues co
   &lt;li&gt;Can sendfile() (and related syscalls) be used to handle blocking disk operations instead of multiple threads/processes? Are there any caveats?&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sun, 16 Jan 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 16 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/computer%20science/system%20design/servers/backend/software%20engineering/2022/01/16/server-design-basic.html</link>
         <guid isPermaLink="true">http://localhost:4000/computer%20science/system%20design/servers/backend/software%20engineering/2022/01/16/server-design-basic.html</guid>
         
@@ -352,7 +352,7 @@ are specially caused by latency variability? For example, some latency issues co
   &lt;li&gt;Are there any systems where the end-to-end argument does not apply? – P2P connections, UDP etc.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Fri, 14 Jan 2022 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 14 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/computer%20science/system%20design/end-to-end%20principle/software%20engineering/2022/01/14/end-to-end.html</link>
         <guid isPermaLink="true">http://localhost:4000/computer%20science/system%20design/end-to-end%20principle/software%20engineering/2022/01/14/end-to-end.html</guid>
         
