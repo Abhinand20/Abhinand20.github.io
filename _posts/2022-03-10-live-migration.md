@@ -10,9 +10,7 @@ icon: icon-html
 ---
 Reference papers:
 
-\[1\] [The Google File System](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf)
-
-\[2\] [GFS: Evolution on Fast-Forward](https://cacm.acm.org/magazines/2010/3/76283-gfs-evolution-on-fast-forward/fulltext)
+\[1\] [Live Migration of Virtual Machines](https://www.usenix.org/legacy/events/nsdi05/tech/full_papers/clark/clark.pdf)
 
 ## Summary 
 Clark et al. propose an approach to migrating live VMs across different instances with minimal degradation of the quality of service and downtime. Live migration is particularly helpful for load re-balancing, fault management and server maintenance. The authors first describe the traditional approaches to live migration including stop-and-copy, demand- copy, pre-copy and other hybrid methods. The authors adopt pre-copy as their approach because of its efficiency. The authors describe the various design considerations in their approach and provide solutions to migrating storage (NAS) and network connections between instances with minimal downtime. The main idea of their approach is to iteratively pre-copy the VM’s page tables onto another VM without stopping it. Once majority of the pages have been migrated, the VM is brought to a complete stop and the final transfer of state is initiated. This approach of iterative copying results in very minimal downtime during migration. Finally, the authors extensively study the performance of their live migration approach on various benchmarks involving static load web-servers, dynamic content generating servers and also interactive gaming servers. Some optimizations discussed by the authors for their approach include adaptive rate-limiting, freeing page cache pages and other paravirtualization optimization. The evaluation results on several benchmarks showed the applicability of the author’s live migration approach.
